@@ -30,6 +30,7 @@ const InputForm:React.FC<IInputForm> = ({addTodo}) => {
         className="btn-hover btn-color"
         type="submit"
         onClick={handleClick}
+        disabled={!task}
 
       >
         Add New Todo
